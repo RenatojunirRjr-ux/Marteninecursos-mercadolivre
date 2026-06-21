@@ -258,6 +258,120 @@ img{max-width:100%;display:block}
 .tcard .who b{font-family:"Archivo";font-size:15px;display:block}
 .tcard .who small{color:var(--soft);font-size:13px}
 @media(max-width:900px){.data-grid{grid-template-columns:1fr 1fr}.tst-grid{grid-template-columns:1fr}}
+/* ============================================================
+   MOBILE POLISH — versão celular afiada (overrides finais)
+   ============================================================ */
+@media(max-width:600px){
+  .wrap{padding:0 20px}
+  .section{padding:52px 0}
+  .section.tight{padding:38px 0}
+  .sec-head{margin-bottom:28px}
+  .sec-head h2{font-size:29px;line-height:1.08}
+  .sec-head p{font-size:16.5px;margin-top:12px;line-height:1.5}
+
+  /* nav */
+  .nav .row{height:60px}
+  .nav .logo{height:26px}
+
+  /* hero */
+  .hero{padding:28px 0 40px}
+  .hero h1{font-size:39px;margin:14px 0 16px;line-height:1.04}
+  .hero .sub{font-size:17px;line-height:1.5;margin-bottom:22px}
+  .hero .cta-row{flex-direction:column;align-items:stretch;gap:11px}
+  .hero .cta-row .btn{width:100%;justify-content:center;padding:17px 22px}
+  .hero .trust{justify-content:center;gap:12px 16px;margin-top:20px;font-size:13px}
+  .peek{box-shadow:0 22px 48px -28px rgba(16,18,24,.5)}
+  .peek .body{padding:20px}
+
+  /* buttons — tap targets */
+  .btn{font-size:16px}
+  .btn.lg{font-size:17px;padding:17px 22px}
+  .btn .ic{width:32px;height:32px}
+
+  /* trust strip */
+  .strip .row{padding:20px 0;gap:16px 14px}
+  .strip .item .n{font-size:22px}
+
+  /* pain / outcomes / diff / levels — mais compactos */
+  .pain-grid{gap:12px}
+  .pain{padding:17px 17px;gap:12px}
+  .pain p{font-size:15px;line-height:1.5}
+  .pain-note{font-size:16.5px;padding:20px 20px;margin-top:22px}
+  .lvl-grid{gap:12px}
+  .lvl{padding:19px 19px}
+  .tools{gap:11px;margin-top:14px}
+  .out-grid{gap:12px}
+  .oc{padding:17px 17px;gap:13px}
+  .diff-grid{gap:13px;margin-top:32px}
+  .dcard{padding:22px 20px}
+
+  /* dados — números com mais impacto */
+  .data-grid{gap:11px}
+  .dstat{padding:22px 14px}
+  .dstat .v{font-size:40px}
+  .dstat .l{font-size:12.5px;margin-top:10px}
+  .data-src{font-size:11.5px;margin-top:26px}
+
+  /* depoimentos */
+  .tst-grid{gap:14px}
+  .tcard{padding:22px 20px;gap:12px}
+  .tcard .q{font-size:15.5px;line-height:1.5}
+  .tcard .av{width:42px;height:42px;font-size:17px}
+
+  /* como funciona */
+  .steps{gap:22px}
+  .step{text-align:left}
+
+  /* oferta */
+  .offer-box{border-radius:22px}
+  .offer-box .top{padding:18px 22px;font-size:12px}
+  .offer-box .body{padding:30px 22px 28px}
+  .offer-box .price{font-size:60px}
+  .offer-box .price small{font-size:22px}
+  .offer-box li{font-size:15px;margin-bottom:12px}
+  .offer-box .bump{font-size:13px}
+
+  /* garantia */
+  .guar{padding:26px 22px;gap:18px}
+  .guar h3{font-size:21px}
+  .guar p{font-size:15px}
+  .guar .seal{width:88px;height:88px;font-size:12.5px}
+
+  /* pra quem é */
+  .whom{gap:14px}
+  .whom .col{padding:24px 22px}
+  .whom li{font-size:14.5px}
+
+  /* faq */
+  .qa button{font-size:16.5px;padding:18px 0;gap:12px}
+  .qa .a p{font-size:15.5px}
+
+  /* fundador */
+  .founder .box{gap:22px}
+  .founder .badge{width:96px;height:96px}
+  .founder h2{font-size:26px}
+  .founder p{font-size:16px;line-height:1.55}
+
+  /* CTA final */
+  .final h2{font-size:30px}
+  .final p{font-size:16.5px}
+  .final .btn{width:100%;justify-content:center}
+
+  /* footer */
+  .foot{padding:40px 0 90px}
+  .foot .bottom{flex-direction:column;gap:8px}
+
+  /* sticky CTA — mais presença */
+  .sticky-cta{padding:11px 14px;box-shadow:0 -10px 30px -14px rgba(16,18,24,.5)}
+  .sticky-cta .p{font-size:21px}
+  .sticky-cta .btn{padding:14px 14px 14px 20px;font-size:15px}
+}
+@media(max-width:380px){
+  .hero h1{font-size:35px}
+  .sec-head h2{font-size:26px}
+  .offer-box .price{font-size:54px}
+  .dstat .v{font-size:34px}
+}
 </style>
 </head>
 <body>
@@ -272,7 +386,7 @@ img{max-width:100%;display:block}
       <a href="#oferta">Preço</a>
       <a href="#faq">Dúvidas</a>
     </nav>
-    <a class="btn primary" href="[LINK DO CHECKOUT]">Quero acesso <span class="ic">→</span></a>
+    <a class="btn primary" href="https://pay.kiwify.com.br/oVERYD7">Quero acesso <span class="ic">→</span></a>
   </div>
 </header>
 
@@ -284,7 +398,7 @@ img{max-width:100%;display:block}
       <h1 class="reveal">O Mercado Livre não é sorte.<br>É <span class="hl">algoritmo</span> — e você vai decifrar ele inteiro.</h1>
       <p class="sub reveal">Pare de perder dinheiro com taxa, anúncio parado e produto no prejuízo. Esse é o sistema que mostra <b>exatamente</b> como subir na busca, precificar no lucro e vender todo dia — feito por quem <b style="color:var(--text)">vende de verdade no Mercado Livre</b>, não por guru de teoria.</p>
       <div class="cta-row reveal">
-        <a class="btn primary lg" href="[LINK DO CHECKOUT]">Quero decifrar o algoritmo <span class="ic">→</span></a>
+        <a class="btn primary lg" href="https://pay.kiwify.com.br/oVERYD7">Quero decifrar o algoritmo <span class="ic">→</span></a>
         <a class="btn ghost" href="#conteudo">Ver o que tem dentro</a>
       </div>
       <div class="trust reveal">
@@ -472,7 +586,7 @@ img{max-width:100%;display:block}
           <li><span class="c">✓</span> Atualizações incluídas no período</li>
           <li><span class="c">✓</span> Garantia incondicional de 7 dias</li>
         </ul>
-        <a class="btn primary lg block" href="[LINK DO CHECKOUT]">Quero garantir minha vaga <span class="ic">→</span></a>
+        <a class="btn primary lg block" href="https://pay.kiwify.com.br/oVERYD7">Quero garantir minha vaga <span class="ic">→</span></a>
         <div class="bump">💡 No checkout você pode adicionar o <b>pacote de planilhas</b> de precificação e conciliação por + R$ 37.</div>
         <div class="scar">⏳ Preço de fundador só nas primeiras 20 vagas — depois volta pra R$ 197.</div>
       </div>
@@ -558,7 +672,7 @@ img{max-width:100%;display:block}
       <div class="eyebrow" style="display:block;margin-bottom:14px">Última chamada</div>
       <h2>Enquanto você lê isso, seu concorrente está subindo na busca. <span class="hl">Vire o jogo hoje.</span></h2>
       <p>Você já entendeu o problema. Agora é decidir: continuar vendendo no escuro, ou decifrar o algoritmo de uma vez. Com garantia de 7 dias, o risco é todo nosso.</p>
-      <a class="btn primary lg" href="[LINK DO CHECKOUT]">Quero parar de vender no escuro <span class="ic">→</span></a>
+      <a class="btn primary lg" href="https://pay.kiwify.com.br/oVERYD7">Quero parar de vender no escuro <span class="ic">→</span></a>
       <div class="scar">Oferta de fundador por R$ 97 nas primeiras 20 vagas. Depois volta pra R$ 197.</div>
     </div>
   </div>
@@ -579,7 +693,7 @@ img{max-width:100%;display:block}
 <!-- ===== STICKY MOBILE CTA ===== -->
 <div class="sticky-cta" id="stickyCta">
   <div class="p">R$ 97 <small>R$ 197</small></div>
-  <a class="btn primary" href="[LINK DO CHECKOUT]">Quero acesso <span class="ic">→</span></a>
+  <a class="btn primary" href="https://pay.kiwify.com.br/oVERYD7">Quero acesso <span class="ic">→</span></a>
 </div>
 
 <script>
